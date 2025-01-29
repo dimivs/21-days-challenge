@@ -1,0 +1,163 @@
+/* INSTRUCTIONS
+ *
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no matter how wide or narrow
+ *    the browser is.
+ *
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
+ *
+ * You may modify the HTML if needed
+ * (you probably should for this challenge)
+ *
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+  
+}
+
+header{
+  background-color: #136C72;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.logo{
+align-self: center;
+}
+
+.primary{
+  justify-self: flex-start;
+}
+
+
+ul{
+  display: flex;
+  gap: 1em;
+  padding: 0.5em;
+  align-items: center;
+  margin: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.linknav{
+  text-decoration: none;
+  color: white;
+}
+
+.linknav:hover{
+  color:#16292e
+}
+.signup{
+  background-color: #124a4e;
+  border-radius: 100px;
+  padding: 0.3em;
+}
+
+.signup:hover{
+  background-color:#c8f0f3;
+  color:#16292e
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  background: #23424a;
+  color: white;  
+  padding: 1em;
+  
+ 
+}
+
+.intro-content {
+  width: 50%;
+  display: flex;
+  margin: auto;  
+}
+.icleft{
+  width: 100%;
+  padding: 1em;
+}
+.avatar{
+display: block;
+width: 12rem;
+height: 15rem;
+
+}
+
+.conteinergeral{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  border: 1px solid red;
+  
+}
+
+.container2{
+background-color: white;
+width: 100%;
+}
+
+.container3{
+  background-color: #136C72;
+  color: white;
+  width: 70%;
+  text-align: center;
+}
+
+.row2{
+padding: 1em;
+}
+.row2 h2 {
+  color: #87629A;
+}
+
+
+
+
+
+.intro-content a{
+  display: inline-block;
+  background-color: #38CFD9;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border-radius: 100px;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #23424a;
+}
+
+.iwanttolearn:hover{
+  background-color:#c8f0f3;
+}
+.extra{
+  margin: 1rem 3rem;
+}
+
+h1{
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0
+}
