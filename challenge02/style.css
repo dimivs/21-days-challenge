@@ -166,6 +166,7 @@ h1{
   .intro-content{
     flex-direction: column;
     /* background-color: pink; */
+    width: 90%;
   }
 
   .avatar{
@@ -174,8 +175,12 @@ h1{
     margin: auto;
   }
   
+  h1{
+    font-size: 2em;
+  }
   .conteinergeral{
     display: block; 
+    width: 90%;
  }
 .container3{
   width: 100%;
