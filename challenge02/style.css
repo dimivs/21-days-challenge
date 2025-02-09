@@ -168,6 +168,7 @@ h1{
     /* background-color: pink; */
     width: 90%;
   }
+  nav{display: block;}
 
   .avatar{
     display: inline;
